@@ -1,0 +1,194 @@
+
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+
+body {
+  background-color: #D2527F;
+  color: black;
+}
+
+h1 { color: white; }
+
+.hamburger {
+	left: auto !important;
+}
+
+.hamburger-animate {
+	float: right !important;
+    left: -63px !important;
+    position: relative !important;
+}
+
+
+.top-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+.mid-animate { opacity: 0; }
+
+.bottom-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(-225deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-225deg);
+}
+
+.top-menu {
+  top: 5px;
+  width: 25px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.mid-menu {
+  top: 13px;
+  width: 25px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.bottom-menu {
+  top: 21px;
+  width: 25px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.menui {
+  background: #000;
+  transition: 0.6s ease;
+  transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
+  margin-top: 14px;
+  margin-left: 7px;
+  position: absolute;
+}
+
+.icon {
+  z-index: 999;
+  position: relative;
+  /*    background: rgba(0, 0, 0, 0.21);*/
+  display: block;
+  float: right !important;
+  padding: 9px;
+  height: 39px;
+  width: 39px;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.icon-animate {
+  display: block !important;
+  position: fixed;
+  float: right !important;
+  top: auto;
+  left: auto;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+.icon-login {
+  z-index: 999;
+  position: relative;
+  /*    background: rgba(0, 0, 0, 0.21);*/
+  display: block;
+  float: right !important;
+  padding: 9px;
+  height: 39px;
+  width: 39px;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 0px solid rgba(0, 0, 0, 0.1);
+}
+
+.icon-login-animate {
+  display: block !important;
+  position: fixed;
+  float: right !important;
+  top: auto;
+  left: auto;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-top: 2px solid #fff;
+}
+
+.icon-search {
+  z-index: 999;
+  position: relative;
+  /*    background: rgba(0, 0, 0, 0.21);*/
+  display: block;
+  float: right !important;
+  padding: 9px;
+  height: 39px;
+  width: 39px;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 0px solid rgba(0, 0, 0, 0.1);
+}
+
+.icon-search-animate {
+  display: block !important;
+  position: fixed;
+  float: right !important;
+  top: auto;
+  left: auto;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-top: 2px solid #fff;
+}
+
+.mobilenav {
+  /*    top: 47px !important;*/
+  font-family: inherit;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url("http://www.rdiary.ru/wp-content/themes/ryu/img/bg-28.png");
+}
+
+.mobilenav li {
+  list-style-type: none;
+  width:100%;
+
+}
+/*
+.mobilenav li a {
+  font-size: 150%;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  width: 100%;
+}
+*/
+.mobilenav li:first-child { margin-top: 20px; }
+
+.thin-shade {
+  background: #ffffff;
+  font: italic 700 56px/1 "Roboto Condensed",san-serif;
+  text-transform: uppercase;
+	color: #353535;
+	letter-spacing: .05em;
+	text-shadow: 
+ 2px 2px 0px #fff, 4px 4px 0px rgba(54, 54, 54, 0.5);
+}
